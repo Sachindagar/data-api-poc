@@ -31,6 +31,9 @@
   "entities": {
     "Person": {
       "source": "production.brands",
+      "rest" : {
+        "path" : "brand"
+      },
       "permissions": [
         {
           "actions": ["create", "read", "update", "delete"],
